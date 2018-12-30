@@ -137,7 +137,7 @@ class Delivery{
   }
 
 }
-//create new data to debugger
+//create new data to debugger in Visual Studio
 new Neighborhood('blogsville');
 new Neighborhood('needsville');
 new Neighborhood('heaven');
