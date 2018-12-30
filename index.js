@@ -137,3 +137,14 @@ class Delivery{
   }
 
 }
+
+function createDriver (name) {
+    let driverId = 0
+    return function Driver (name) { 
+        this.name = name
+        this.id = driverId++
+    }
+}
+let Driver = createDriver('sam');
+let Driver2 = createDriver('bob');
+Driver === Driver2;
